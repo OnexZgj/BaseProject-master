@@ -22,7 +22,11 @@
         <item name="preferenceTheme">@style/PreferenceScreen</item>
     </style>
 
-
+    <style name="PreferenceScreen" parent="PreferenceThemeOverlay.v14.Material">
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:scrollbarFadeDuration">1</item>
+    </style>
 
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>

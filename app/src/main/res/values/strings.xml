@@ -2,6 +2,124 @@
     <string name="app_name">OnexProject</string>
 
     <string name="title_activity_splash">SplashActivity</string>
-    <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="no_network_connection">请检查网络</string>
+    <string name="title_home">未完成</string>
+    <string name="title_knowledgesystem">已完成</string>
+    <string name="navigation">导航</string>
+    <string name="title_my">我的</string>
+    <string name="hot_title">Hot</string>
+    <string name="search_title">Search</string>
+    <string name="empty_network_error">Network error, Click Retry</string>
+    <string name="empty_no_data">There is no data, Click Retry</string>
+    <string name="setting_auto_update">开启后WIFI自动下载更新应用</string>
+    <string name="auto_update">自动更新</string>
+    <string name="check_update">检查更新</string>
+    <string name="about">关于玩Android</string>
+    <string name="test_page">测试页面</string>
+    <string name="system_settings">系统设置</string>
+    <!-- article -->
+    <string name="browser_title">用系统浏览器打开</string>
+    <string name="hot_key">大家都在搜</string>
+    <string name="common_use">常用网站</string>
+
+    <!-- navigation -->
+    <string name="my_bookmark">我的书签</string>
+    <string name="my_like">我喜欢的</string>
+    <string name="my_about">关于我们</string>
+    <string name="title_login">登陆</string>
+    <string name="title_register">注册</string>
+
+
+    <string name="like_title">收藏</string>
+    <string name="collection_time">收藏时间：%1$s</string>
+    <string name="collection_success">收藏成功</string>
+    <string name="collection_failed">收藏失败：%1$s</string>
+    <string name="collection_cancel_success">取消收藏成功</string>
+    <string name="collection_cancel_failed">取消收藏失败：%1$s</string>
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+    <string name="the_username_or_password_can_not_be_empty">用户名或密码不能为空</string>
+    <string name="login_success">登陆成功</string>
+    <string name="auto_login_success">自动登陆成功</string>
+    <string name="click_avatar_login">点击头像登陆</string>
+    <string name="logout">退出登陆</string>
+    <string name="my_collection">我的收藏</string>
+    <string name="bookmark">书签</string>
+    <string name="setting">设置</string>
+    <string name="not_login">没有登陆</string>
+    <string name="share_title">分享</string>
+    <string name="share_type_title">分享专题</string>
+    <string name="share_article_url">%1$s分享【%2$s】：%3$s</string>
+    <string name="share_type_url">%1$s分享【%2$s】专题：http://www.wanandroid.com/article/list/0?cid=%3$d</string>
+    <string name="exit_system">再按一次退出程序</string>
+    <string name="knowledgesystem">知识体系</string>
+    <string name="gank_io">干货集中营</string>
+    <string name="refresh_success">刷新成功</string>
+    <string name="refresh_error">刷新失败</string>
+    <string name="load_more_success">请求数据成功</string>
+    <string name="load_more_error">请求数据失败</string>
+    <string name="title_gank">干货</string>
+
+    <string name="startlocation">开始定位</string>
+    <string name="stoplocation">停止定位</string>
+    <string name="title">请输入标题:</string>
+    <string name="content">请输入待办内容:</string>
+    <string name="save">添加</string>
+    <string name="no_complete">完成待办</string>
+
+    <string name="loading">正在加载中……</string>
+    <string name="service_error">服务器开小差，请稍候重试</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_account">账号</string>
+    <string name="prompt_password">密码</string>
+    <string name="sign_in">登录</string>
+    <string name="register_message">还没账号，点击注册</string>
+    <string name="input_account">请输入账号</string>
+    <string name="input_password">请输入密码</string>
+    <string name="to_do_list">待办清单</string>
+    <string name="complete_list">完成清单</string>
+    <string name="splash_message">高效率&#160;慢生活</string>
+    <string name="register">注册</string>
+    <string name="input_repassword">请输入确认密码</string>
+    <string name="valid_repassword">两次输入的密码不一致</string>
+    <string name="register_success">注册成功</string>
+    <string name="input_todo_name">输入待办名称，如：准备演示PPT</string>
+    <string name="input_todo_des">输入待办详情，非必填，如：\n1、制作演示PPT\n2、预定会议室\n3、通知参加会议人员\n4、提前10分钟准备会议环境</string>
+    <string name="add_todo">添加待办清单</string>
+    <string name="update_todo">清单详细</string>
+    <string name="input_todo_name_toast">请输入待办名称</string>
+    <string name="add_todo_success">添加成功</string>
+    <string name="update_todo_success">更新成功</string>
+    <string name="delete_todo_success">删除成功</string>
+    <string name="done_todo_success">标记完成</string>
+    <string name="notdo_todo_success">撤销完成</string>
+    <string name="done_todo_date">完成时间：%s</string>
+    <string name="account_name">账号信息</string>
+    <string name="modify_password">修改密码</string>
+    <string name="my_github_url">https://github.com/wjwang0914</string>
+    <string name="my_github_name">github</string>
+    <string name="api_support_name">API</string>
+    <string name="api_support_url">http://www.wanandroid.com/</string>
+    <string name="no_text">本宝宝暂时还没有想到详细信息</string>
+    <string name="todo_name">待办名称</string>
+    <string name="todo_des">待办详细</string>
+    <string name="delete_todo">删除待办清单</string>
+    <string name="sure_delete_todo">请确认是否删除？</string>
+    <string name="cancel">取消</string>
+    <string name="ok">确定</string>
+    <string name="todo_title">标题：</string>
+    <string name="des">详情：</string>
+    <string name="introduce_and_help">应用简介</string>
+
+    <string name="open_source_lis">用到的开源库</string>
+    <string name="open_source_libraries_list">com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.30 \ncom.trello.rxlifecycle2:rxlifecycle:2.2.1 \nio.reactivex.rxjava2:rxjava:2.1.11 \ncom.alibaba:arouter-api:1.3.1\ncom.squareup.retrofit2:retrofit:2.3.0\ncom.google.dagger:dagger:2.11 \ncom.orhanobut:logger:2.2.0 \ncom.yanzhikai:TextPathView:0.1.3\n...</string>
+    <string name="about_coder">作者简介</string>
+    <string name="share">分享给朋友</string>
+    <string name="menu_save">保存</string>
+
+    <string name="introduce">待办事项APP,使用主流MVP+Dagger2+Retrofit+Rxjava2+RxLifecycle+ARouter框架构建的主体项目,接口是鸿洋大大提供\n\n地址: http://www.wanandroid.com/blog/show/2 \n\n项目的GitHub地址:https://github.com/OnexZgj/ForYou \n\n完全开源，如果你觉得不错，可以帮忙分享给你更多的朋友，这是我最大的动力和支持，非常感谢！\n\n如果在使用过程中有任何的问题可以在: \nhttps://github.com/OnexZgj/ForYou 项目中以issue的形式提出，我将及时跟进。</string>
+
+    <string name="introduce_about_coder">一个热衷于技术开发、喜欢玩游戏、旅游的程序猿...\n CSDN地址: https://blog.csdn.net/qq_15988951</string>
+
 </resources>
