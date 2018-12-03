@@ -15,7 +15,7 @@ import com.bumptech.glide.request.target.Target;
 import com.onexzgj.onexlibrary.base.BaseContract;
 import com.onexzgj.onexlibrary.base.BaseMvpActivity;
 import com.onexzgj.onexlibrary.utils.RxHelper;
-import com.onexzgj.onexproject.MainActivity;
+import com.onexzgj.onexproject.ui.activity.home.HomeActivity;
 import com.onexzgj.onexproject.R;
 
 import java.util.concurrent.TimeUnit;
@@ -100,7 +100,7 @@ public class AdvertisingActivity extends BaseMvpActivity<AdvertisPresenterImp> i
                     @Override
                     public void onComplete() {
                         if (!mIsCancle) {
-                            startActivity(MainActivity.class);
+                            startActivity(HomeActivity.class);
                             finish();
                         }
                     }
@@ -114,7 +114,7 @@ public class AdvertisingActivity extends BaseMvpActivity<AdvertisPresenterImp> i
             case R.id.ll_skip:
                 //跳过广告，直接进入MainActivity
                 mIsCancle=true;
-                startActivity(MainActivity.class);
+                startActivity(HomeActivity.class);
                 finish();
 
                 break;

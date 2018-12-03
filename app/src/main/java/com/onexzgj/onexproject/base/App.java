@@ -1,4 +1,4 @@
-package com.onexzgj.onexproject;
+package com.onexzgj.onexproject.base;
 
 import com.onexzgj.onexlibrary.GlobalApplication;
 
@@ -7,7 +7,6 @@ import com.onexzgj.onexlibrary.GlobalApplication;
  */
 
 public class App extends GlobalApplication {
-
 
     public static App app;
 
