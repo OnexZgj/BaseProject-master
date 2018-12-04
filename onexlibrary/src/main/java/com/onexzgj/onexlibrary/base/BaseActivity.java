@@ -25,8 +25,8 @@ public abstract class BaseActivity extends AppCompatActivity {
             setContentView(getLayoutId());
             ButterKnife.bind(this);
         }
-        BarUtils.hideNotificationBar(this);
-        BarUtils.hideNavBar(this);
+//        BarUtils.hideNotificationBar(this);
+//        BarUtils.hideNavBar(this);
         //初始化
         initView();
         initData();
