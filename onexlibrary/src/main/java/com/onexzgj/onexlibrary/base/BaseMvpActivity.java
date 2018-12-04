@@ -40,7 +40,8 @@ public abstract class BaseMvpActivity<T extends BaseContract.BasePresenter> exte
         BarUtils.setStatusBarAlpha(this, 0);
 //        mColor=0xff0000;
 //        BarUtils.setStatusBarColor(this,mColor);
-        mProgressDialog = new ProgressDialog(this, 0);
+        if (mProgressDialog == null)
+            mProgressDialog = new ProgressDialog(this, 0);
         mPresenter = (T) initPresenter();
 
         attachView();

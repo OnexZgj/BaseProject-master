@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">OnexLibrary</string>
+    <string name="no_network_connection">网络连接出错了，请确定网络打开</string>
 </resources>
