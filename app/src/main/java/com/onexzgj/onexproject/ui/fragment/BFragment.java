@@ -6,15 +6,15 @@ import com.onexzgj.onexlibrary.base.BaseContract;
 import com.onexzgj.onexlibrary.base.BaseFragment;
 import com.onexzgj.onexproject.R;
 
-public class AFragment extends BaseFragment {
+public class BFragment extends BaseFragment {
 
     public static BaseFragment getInstance() {
-        return new AFragment();
+        return new BFragment();
     }
 
     @Override
     protected int getLayoutId() {
-        return R.layout.fragment_a;
+        return R.layout.fragment_b;
     }
 
     @Override

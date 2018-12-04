@@ -89,7 +89,7 @@ public abstract class BaseMvpActivity<T extends BaseContract.BasePresenter> exte
     @Override
     public void hideLoading() {
         if (mProgressDialog != null)
-            mProgressDialog.hide();
+            mProgressDialog.dismiss();
     }
 
 

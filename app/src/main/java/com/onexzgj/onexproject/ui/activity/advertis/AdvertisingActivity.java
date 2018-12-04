@@ -42,7 +42,9 @@ public class AdvertisingActivity extends BaseMvpActivity<AdvertisPresenterImp> i
     TextView tvAaAdvertisingTitle;
     private int mTime = 3;
 
-    /** 是否取消加载广告 */
+    /**
+     * 是否取消加载广告
+     */
     private boolean mIsCancle = false;
 
 
@@ -89,8 +91,8 @@ public class AdvertisingActivity extends BaseMvpActivity<AdvertisPresenterImp> i
 
                     @Override
                     public void onNext(Long value) {
-
-                        tvCountDown.setText(String.valueOf(value));
+                        if (tvCountDown != null)
+                            tvCountDown.setText(String.valueOf(value));
                     }
 
                     @Override
@@ -113,7 +115,7 @@ public class AdvertisingActivity extends BaseMvpActivity<AdvertisPresenterImp> i
         switch (view.getId()) {
             case R.id.ll_skip:
                 //跳过广告，直接进入MainActivity
-                mIsCancle=true;
+                mIsCancle = true;
                 startActivity(HomeActivity.class);
                 finish();
 
@@ -141,7 +143,7 @@ public class AdvertisingActivity extends BaseMvpActivity<AdvertisPresenterImp> i
                 return false;
             }
         }).into(ivAaAdvertising);
-        tvAaAdvertisingTitle.setText("Onex Project " +desc );
+        tvAaAdvertisingTitle.setText("Onex Project " + desc);
 
     }
 }
