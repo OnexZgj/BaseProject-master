@@ -37,7 +37,7 @@ public abstract class BaseMvpActivity<T extends BaseContract.BasePresenter> exte
             unBinder = ButterKnife.bind(this);
         }
 //        BarUtils.setStatusBarAlpha(this);
-        BarUtils.setStatusBarAlpha(this, 0);
+//        BarUtils.setStatusBarAlpha(this, 0);
 //        mColor=0xff0000;
 //        BarUtils.setStatusBarColor(this,mColor);
         if (mProgressDialog == null)

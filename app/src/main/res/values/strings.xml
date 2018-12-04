@@ -111,6 +111,7 @@
     <string name="todo_title">标题：</string>
     <string name="des">详情：</string>
     <string name="introduce_and_help">应用简介</string>
+    <string name="account_hint">手机号码仅用于账户登录和保护安全</string>
 
     <string name="open_source_lis">用到的开源库</string>
     <string name="open_source_libraries_list">com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.30 \ncom.trello.rxlifecycle2:rxlifecycle:2.2.1 \nio.reactivex.rxjava2:rxjava:2.1.11 \ncom.alibaba:arouter-api:1.3.1\ncom.squareup.retrofit2:retrofit:2.3.0\ncom.google.dagger:dagger:2.11 \ncom.orhanobut:logger:2.2.0 \ncom.yanzhikai:TextPathView:0.1.3\n...</string>

@@ -19,6 +19,7 @@ import com.onexzgj.onexlibrary.base.BaseFragment;
 import com.onexzgj.onexproject.R;
 import com.onexzgj.onexproject.ui.fragment.AFragment;
 import com.onexzgj.onexproject.ui.fragment.BFragment;
+import com.onexzgj.onexproject.ui.fragment.me.MeFragment;
 import com.tbruyelle.rxpermissions2.RxPermissions;
 
 import java.util.ArrayList;
@@ -95,6 +96,7 @@ public class HomeActivity extends BaseActivity implements BottomNavigationView.O
     private void initFragment() {
         mFragments.add(AFragment.getInstance());
         mFragments.add(BFragment.getInstance());
+        mFragments.add(MeFragment.getInstance());
 
     }
 
@@ -114,8 +116,11 @@ public class HomeActivity extends BaseActivity implements BottomNavigationView.O
             case R.id.navigation_home:
                 switchFragment(0);
                 break;
-            case R.id.navigation_me:
+            case R.id.navigation_com:
                 switchFragment(1);
+                break;
+            case R.id.navigation_me:
+                switchFragment(2);
                 break;
         }
         return true;

@@ -20,6 +20,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".ui.activity.advertis.AdvertisingActivity" />
+        <activity android:name=".ui.activity.login.LoginActivity" />
+        <activity android:name=".ui.activity.register.RegisterActivity"></activity>
     </application>
 
 </manifest>

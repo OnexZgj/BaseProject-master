@@ -8,8 +8,13 @@
         android:title="@string/title_home"/>
 
     <item
-        android:id="@+id/navigation_me"
+        android:id="@+id/navigation_com"
         android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_knowledgesystem"/>
+
+    <item
+        android:id="@+id/navigation_me"
+        android:icon="@drawable/ic_vector_bottom_personal"
         android:title="@string/title_knowledgesystem"/>
 
 

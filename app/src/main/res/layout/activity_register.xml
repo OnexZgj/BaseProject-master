@@ -7,15 +7,12 @@
     android:background="@color/white"
     android:orientation="vertical">
 
-    <com.hjq.bar.TitleBar
+    <android.support.v7.widget.Toolbar
         android:id="@+id/tb_register_title"
         android:layout_width="match_parent"
         android:layout_height="@dimen/space_100"
-        app:bar_style="transparent"
-        app:color_left="@color/colorAccent"
-        app:icon_back="false"
-        app:title=""
-        app:title_left="@string/register_login" />
+        android:background="@color/colorPrimaryDark"
+        app:title="@string/register_login"/>
 
     <android.support.v4.widget.NestedScrollView
         android:layout_width="match_parent"
@@ -41,7 +38,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/space_40"
-                android:text="提箱"
+                android:text="@string/account_hint"
                 android:textColor="@color/black20"
                 android:textSize="@dimen/font_size_28px" />
 
@@ -64,7 +61,7 @@
                     android:maxLength="11"
                     android:maxLines="1" />
 
-                <com.hjq.baselibrary.widget.CountdownView
+                <com.onexzgj.onexlibrary.widget.CountdownView
                     android:id="@+id/cv_register_countdown"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
