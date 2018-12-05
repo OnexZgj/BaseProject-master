@@ -81,6 +81,10 @@
     </style>
 
 
+    <style name="CollapsingToolbarTitleStyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@android:color/transparent</item>
+    </style>
+
 
     <!-- 默认水平分割线样式 -->
     <style name="HorizontalLineStyle">

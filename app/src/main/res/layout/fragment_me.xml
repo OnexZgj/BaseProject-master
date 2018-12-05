@@ -8,14 +8,29 @@
     <Button
         android:id="@+id/btn_fm_login"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/space_80"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
         android:text="@string/title_login"/>
 
     <Button
         android:id="@+id/btn_fm_register"
         android:layout_marginTop="@dimen/space_50"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/space_80"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
         android:text="@string/title_register"/>
+
+
+    <Button
+        android:id="@+id/btn_fm_about_me"
+        android:layout_marginTop="@dimen/space_50"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:text="@string/about"/>
+
 
 </LinearLayout>

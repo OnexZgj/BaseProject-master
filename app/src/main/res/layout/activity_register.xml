@@ -10,9 +10,10 @@
     <android.support.v7.widget.Toolbar
         android:id="@+id/tb_register_title"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/space_100"
-        android:background="@color/colorPrimaryDark"
-        app:title="@string/register_login"/>
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        app:titleTextColor="@color/white"
+        app:title="@string/title_register"/>
 
     <android.support.v4.widget.NestedScrollView
         android:layout_width="match_parent"

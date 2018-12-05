@@ -72,5 +72,8 @@ dependencies {
     //logger
     implementation 'com.orhanobut:logger:2.2.0'
 
+    //agentweb
+    compile 'com.just.agentweb:agentweb:4.0.2'
+
 
 }

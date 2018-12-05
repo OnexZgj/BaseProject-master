@@ -21,7 +21,8 @@
         </activity>
         <activity android:name=".ui.activity.advertis.AdvertisingActivity" />
         <activity android:name=".ui.activity.login.LoginActivity" />
-        <activity android:name=".ui.activity.register.RegisterActivity"></activity>
+        <activity android:name=".ui.activity.register.RegisterActivity" />
+        <activity android:name=".ui.activity.aboutme.AboutActivity"></activity>
     </application>
 
 </manifest>
