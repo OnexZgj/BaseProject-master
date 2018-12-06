@@ -86,6 +86,11 @@
     </style>
 
 
+    <style name="AppTheme.ToolbarPopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <item name="overlapAnchor">false</item>
+    </style>
+
+
     <!-- 默认水平分割线样式 -->
     <style name="HorizontalLineStyle">
         <item name="android:layout_width">match_parent</item>
